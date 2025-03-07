@@ -1,3 +1,4 @@
+# Archivo de constantes
 FACTOR_C_F = 1.8   # Factor para convertir Celsius a Fahrenheit
 FACTOR_K_C = 273.15  # Kelvin a Celsius
 
@@ -27,7 +28,7 @@ def menu():
         print("2) Fahrenheit a Celsius")
         print("3) Celsius a Kelvin")
         print("4) Kelvin a Celsius")
-                
+        
         opcion = input("Seleccione una opción: ")
         
         if opcion == "1":
@@ -45,4 +46,5 @@ def menu():
         else:
             print("Opción no válida. Intente de nuevo.")
 
+# Ejecutar el menú
 menu()
